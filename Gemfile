@@ -16,6 +16,11 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem "ember-cli-rails"
 
+group :development do
+  gem 'guard'
+  gem 'guard-livereload', '~> 2.4', require: false
+end
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
