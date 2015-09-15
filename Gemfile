@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem "ember-cli-rails"
 
+gem "rails_12factor", group: :production
+
 group :development do
   gem 'guard'
   gem 'guard-livereload', '~> 2.4', require: false
